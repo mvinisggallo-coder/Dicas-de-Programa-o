@@ -1,0 +1,120 @@
+# 🧠 Guia Pessoal de Lógica de Programação
+## Conselhos para consultar antes de programar
+
+### 1. Planeje antes de escrever o código
+- [ ] Entenda qual problema o programa precisa resolver.
+- [ ] Descreva o funcionamento usando palavras simples.
+- [ ] Divida o programa em etapas menores.
+- [ ] Organize a sequência de execução antes de começar.
+- [ ] Pense no resultado esperado de cada etapa.
+
+**Exemplo:** login → validação → escolha dos produtos → cálculo do total → pagamento → finalização.
+
+### 2. Pense antes de criar uma variável
+- [ ] Pergunte qual informação precisa ser armazenada.
+- [ ] Escolha o tipo de dado adequado: `inteiro`, `real`, `cadeia`, `caracter` ou `logico`.
+- [ ] Verifique se essa informação já está armazenada em outra variável.
+- [ ] Preserve os valores que serão necessários posteriormente.
+- [ ] Dê nomes claros às variáveis.
+- [ ] Evite reutilizar uma variável para finalidades diferentes quando isso prejudicar a clareza.
+
+**Lembrete:** o objetivo não é ter poucas variáveis, mas ter as variáveis necessárias, com responsabilidades bem definidas.
+
+### 3. Procure padrões antes de criar várias condições
+- [ ] Antes de escrever muitos `se` e `senão se`, procure uma regra geral.
+- [ ] Verifique se uma fórmula matemática resolve várias situações.
+- [ ] Utilize estruturas de repetição quando precisar repetir uma tarefa.
+- [ ] Considere criar funções para tarefas que possam ser reaproveitadas.
+- [ ] Evite escrever uma condição para cada combinação possível quando existir uma solução mais geral.
+
+**Exemplo:** em vez de criar condições para cada combinação de produtos, calcule `total = preco1 + preco2`.
+
+### 4. Entenda a finalidade de cada estrutura
+- [ ] `se / senão se / senão`: tomar decisões.
+- [ ] `escolha / caso`: selecionar entre alternativas definidas.
+- [ ] `enquanto`: repetir comandos enquanto uma condição for verdadeira.
+- [ ] Funções: organizar tarefas específicas e permitir seu reaproveitamento.
+- [ ] Operadores lógicos (`e`, `ou`, `não`): combinar ou inverter condições.
+
+**Lembrete:** antes de utilizar uma estrutura, saiba qual problema ela resolverá.
+
+### 5. Simule a execução antes de testar
+- [ ] Imagine os comandos sendo executados em sequência.
+- [ ] Acompanhe os valores das variáveis.
+- [ ] Verifique quais condições serão verdadeiras ou falsas.
+- [ ] Descubra quando uma repetição começa e quando termina.
+- [ ] Tente prever o resultado antes de executar o programa.
+
+**Exemplo:** se uma opção precisa estar entre 1 e 4, teste mentalmente as entradas 0, 2 e 5.
+
+### 6. Desenvolva uma funcionalidade por vez
+- [ ] Comece com a parte mais simples do programa.
+- [ ] Faça essa parte funcionar antes de adicionar outra.
+- [ ] Teste cada funcionalidade isoladamente.
+- [ ] Integre as partes gradualmente.
+- [ ] Corrija os erros antes de continuar ampliando o projeto.
+
+**Exemplo para um sistema de vendas:** login → menu → seleção de produtos → cálculo → pagamento → resumo da compra.
+
+### 7. Teste também as situações inesperadas
+- [ ] Teste entradas válidas e inválidas.
+- [ ] Verifique o que acontece quando o usuário digita um número fora do intervalo.
+- [ ] Teste o que acontece quando uma condição não é atendida.
+- [ ] Confira os cálculos com diferentes valores.
+- [ ] Verifique se o programa continua funcionando depois de cada alteração.
+
+**Lembrete:** um programa precisa funcionar tanto nas situações esperadas quanto nas situações de erro que você decidiu tratar.
+
+### 8. Não confunda código curto com código bom
+- [ ] Priorize a clareza e a organização.
+- [ ] Evite duplicar trechos de código sem necessidade.
+- [ ] Utilize nomes de variáveis que expliquem sua finalidade.
+- [ ] Organize as condições e as repetições.
+- [ ] Simplifique o código sem prejudicar a compreensão.
+
+**Lembrete:** um código fácil de entender, testar e modificar costuma ser melhor do que um código curto e confuso.
+
+### 9. Use os erros como parte do aprendizado
+- [ ] Leia as mensagens de erro com atenção.
+- [ ] Identifique em qual parte do código o problema ocorre.
+- [ ] Investigue a causa antes de modificar várias partes ao mesmo tempo.
+- [ ] Faça uma alteração por vez e teste novamente.
+- [ ] Quando receber ajuda, procure entender por que a solução funciona.
+- [ ] Depois de corrigir um erro, tente explicar a causa com suas próprias palavras.
+
+### 10. Aprenda a resolver problemas sem depender de respostas prontas
+- [ ] Tente desenvolver uma solução antes de consultar alguém.
+- [ ] Escreva sua lógica em etapas ou pseudocódigo.
+- [ ] Quando ficar bloqueado, peça uma pista antes de pedir o código completo.
+- [ ] Compare diferentes soluções e entenda suas vantagens.
+- [ ] Refaça o exercício sem consultar a resposta.
+- [ ] Pratique o mesmo conceito em outros problemas.
+
+### 11. Organize e evolua seus projetos
+- [ ] Dê um nome claro ao projeto.
+- [ ] Documente o objetivo e as funcionalidades.
+- [ ] Registre as alterações importantes.
+- [ ] Utilize o GitHub para armazenar o código e acompanhar sua evolução.
+- [ ] Teste as mudanças antes de publicar uma nova versão.
+- [ ] Nunca publique senhas reais ou outras credenciais privadas.
+
+### 12. Perguntas obrigatórias antes de começar
+Antes de escrever o código, procure responder:
+
+1. Qual problema preciso resolver?
+2. Quais são as etapas do funcionamento?
+3. Quais dados preciso receber e armazenar?
+4. Quais condições podem acontecer?
+5. O que precisa se repetir e quando a repetição deve terminar?
+6. Existe uma regra geral que evite várias condições semelhantes?
+7. Como vou verificar se o programa funciona corretamente?
+
+---
+
+## ⭐ Regra principal
+
+**Primeiro, entenda o problema. Depois, organize a lógica. Em seguida, escreva o código, teste e melhore.**
+
+Não tente resolver tudo de uma vez. Divida o problema em partes menores e procure compreender cada uma delas.
+
+O objetivo não é apenas fazer o programa funcionar, mas entender por que ele funciona e conseguir construir soluções cada vez melhores por conta própria.
